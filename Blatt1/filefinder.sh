@@ -1,3 +1,3 @@
 #! /bin/bash
 
-echo hallo
+file $(find $*) | grep "POSIX shell script" | sort | cut -f1 -d:

@@ -1,0 +1,2 @@
+html/* /var/www/html/
+cgi-bin/* /usr/lib/cgi-bin/

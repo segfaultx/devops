@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 04 Nov 2019 14:39:38 +0000
+Source: anwendung
+Binary: anwendung
+Architecture: source all
+Version: 0.01-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Amatus Muscheites <amatus.muscheites@student.hs-rm.de>
+Changed-By: Amatus Muscheites <amatus.muscheites@student.hs-rm.de>
+Description:
+ anwendung  - <insert up to 60 chars description>
+Changes:
+ anwendung (0.01-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 6289848e47d67f8b12e1dc5b370ce4bbc319b3e2 845 anwendung_0.01-1.dsc
+ 526652d8311ebdde60eceda68740b5798d9722d8 844 anwendung_0.01.orig.tar.xz
+ b9017e14d9dddde170a2e986c42b869d315af181 7796 anwendung_0.01-1.debian.tar.xz
+ 8093b8cadf8236abffe6d736e3994140dc504db5 3364 anwendung_0.01-1_all.deb
+ ed0c9e94e3f2fa9058a0aa3c5e4c2bec9199755c 4623 anwendung_0.01-1_amd64.buildinfo
+Checksums-Sha256:
+ fbf0e10da2b0bc124f1bfe679c3d69023370dabe2fa6203cd4750a2977f32e76 845 anwendung_0.01-1.dsc
+ 6255722e28fff8fc3694f7de4b5cc658f56ff729d741807e0647f57d7649962a 844 anwendung_0.01.orig.tar.xz
+ 5bb7ce14a2c008590feecec43b0b649c511f123a38d665f27d581b6c159e663b 7796 anwendung_0.01-1.debian.tar.xz
+ bbb6a318ec3a22e93228af443728393e72a48363fd008b6be773d1d810c65dc0 3364 anwendung_0.01-1_all.deb
+ 82889702865cffc76c2ec3abd1e204a1bd74e417095bb6c043c464d8924a4b6d 4623 anwendung_0.01-1_amd64.buildinfo
+Files:
+ ea219b31d5682284e3d1e215b6211942 845 unknown optional anwendung_0.01-1.dsc
+ 26e5ae348d0f5f7e5b9fcb0ccbe2f4c6 844 unknown optional anwendung_0.01.orig.tar.xz
+ f32b1a3c49670b87bf352ff0d291fa3f 7796 unknown optional anwendung_0.01-1.debian.tar.xz
+ a4aee387a823ec8c13ebba4c8b9bf93e 3364 unknown optional anwendung_0.01-1_all.deb
+ 1f6e50204fa455ce9d92714d90261207 4623 unknown optional anwendung_0.01-1_amd64.buildinfo

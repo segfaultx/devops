@@ -1,0 +1,11 @@
+Package: anwendung
+Version: 0.01-1
+Architecture: all
+Maintainer: Amatus Muscheites <amatus.muscheites@student.hs-rm.de>
+Installed-Size: 19
+Depends: lighttpd
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

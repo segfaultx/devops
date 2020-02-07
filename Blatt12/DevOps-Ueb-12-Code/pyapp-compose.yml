@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+  pycalc:
+    image: "devopsXXYY:8088/pycalc"
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "5000:5000"
+    networks:
+      - pynet
+
+  pyuse:
+    image: "devopsXXYY:8888/pyuse"
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: any
+        max_attempts: 3
+    ports:
+      - "6000:6000"
+    networks:
+      - pynet
+
+networks:
+  pynet:
+

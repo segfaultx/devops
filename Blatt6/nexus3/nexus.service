@@ -1,0 +1,12 @@
+[Unit]
+Description=nexus service
+After=network.target
+[Service]
+Type=forking
+LimitNOFILE=65536
+ExecStart=/srv/nexus-home/nexus-3.19.1-01/bin/nexus start
+ExecStop=/srv/nexus-home/nexus-3.19.1-01/bin/nexus stop
+User=nexus
+Restart=on-abort
+[Install]
+WantedBy=multi-user.target
